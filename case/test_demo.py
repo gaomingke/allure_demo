@@ -13,4 +13,3 @@ class Test(object):
     @allure.MASTER_HELPER.severity(allure.MASTER_HELPER.severity_level.CRITICAL)
     def test_func3(self):
         print("测试用例3")
-        assert 0
